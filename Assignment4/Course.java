@@ -41,7 +41,7 @@ class Course {
     public String getInfo() {
         String info;
 
-        info = String.format("%d %s %d %s/%s%n",
+        info = String.format("%d %s %d %s/%s",
                 courseID, courseName, credits, enrolled, capacity);
 
         return info;
