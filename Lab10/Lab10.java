@@ -24,7 +24,7 @@ public class Lab10 {
                 double amount = sc.nextDouble();
 
                 for (BankAccount a : accounts) {
-                    if (id == a.getId()) {
+                    if (id == a.getID()) {
                         account = a;
                     }
                 }
