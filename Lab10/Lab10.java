@@ -19,12 +19,12 @@ public class Lab10 {
                 BankAccount account = null;
 
                 System.out.print("Enter your account number:");
-                int id = sc.nextInt();
+                int ID = sc.nextInt();
                 System.out.print("Enter transaction amount:");
                 double amount = sc.nextDouble();
 
                 for (BankAccount a : accounts) {
-                    if (id == a.getID()) {
+                    if (ID == a.getID()) {
                         account = a;
                     }
                 }
