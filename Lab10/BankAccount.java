@@ -1,13 +1,13 @@
 public abstract class BankAccount {
-    protected int id;
+    protected int ID;
     protected double balance;
 
-    public int getId() {
-        return id;
+    public int getID() {
+        return ID;
     }
 
-    public void setID(int id) {
-        this.id = id;
+    public void setID(int ID) {
+        this.ID = ID;
     }
 
     public double getBalance() {
