@@ -12,7 +12,7 @@ public class CheckingAccount extends BankAccount {
     }
 
     public void withdraw(double amount) {
-        transCount -= 1;
+        transCount += 1;
         super.withdraw(amount);
     }
 
