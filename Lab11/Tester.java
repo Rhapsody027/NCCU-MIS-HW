@@ -29,10 +29,7 @@ public class Tester {
 
         for (Employee e : employees) {
             e.monthEnd();
-            System.out.print(e.getInfo());
-            if (employees.indexOf(e) != employees.size() - 1) {
-                System.out.println("\n");
-            }
+            System.out.println(e.getInfo());
         }
     }
 }
