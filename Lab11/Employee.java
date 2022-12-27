@@ -39,12 +39,12 @@ class Employee {
     public String getInfo() {
         String info;
 
-        info = "ID:" + id + "\n" +
-                "Name:" + name + "\n" +
-                "Department:" + department + "\n" +
-                "Total sales:" + sales + "\n" +
-                "Total salary:" + totalSalary + "\n" +
-                "Account amount:" + account.getBalance();
+        info = "ID: " + id + "\n" +
+                "Name: " + name + "\n" +
+                "Department: " + department + "\n" +
+                "Total sales: " + sales + "\n" +
+                "Total salary: " + totalSalary + "\n" +
+                "Account amount: " + account.getBalance() + "\n";
 
         return info;
     }
