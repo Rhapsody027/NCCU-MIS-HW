@@ -1,5 +1,5 @@
 public class BinaryTree { // 二元樹
-    class Node { // 內部類別 二元樹節點
+    class Node { // 二元樹節點 (內部類別)
         Node Lnode = null, Rnode = null; // 左、右節點
         int data, bf; // 節點資料、平衡因子
 
