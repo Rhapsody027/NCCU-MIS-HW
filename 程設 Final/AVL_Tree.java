@@ -120,7 +120,7 @@ public class AVL_Tree extends BinarySearchTree { // AVL樹(繼承二元搜尋樹
 
     public void delRotate(Node pivot, int newData) { // 刪除節點後檢查旋轉
         if (pivot != null) {
-            addInfo("\nRotate!\n");
+            addInfo("Rotate!\n");
 
             if (pivot.bf > 1) {
                 Right(pivot);
