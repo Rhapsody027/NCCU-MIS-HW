@@ -21,7 +21,7 @@ public class AVL_Tree extends BinarySearchTree { // AVL樹(繼承二元搜尋樹
         }
     }
 
-    public Node getPivot(Node start) { // 取得須旋轉之軸心節點
+    public Node getPivot(Node start) { // 取得平衡因子大於1，需旋轉之軸心節點
         Node current = root, pivot = null;
         updateBF(start);
 
@@ -96,7 +96,7 @@ public class AVL_Tree extends BinarySearchTree { // AVL樹(繼承二元搜尋樹
         Left(pivot);
     }
 
-    public void addRotate(Node pivot, int newData) { // 新增節點後旋轉
+    public void addRotate(Node pivot, int newData) { // 新增節點後檢查旋轉
         if (pivot != null) {
             addInfo("Rotate!\n");
 
@@ -118,7 +118,7 @@ public class AVL_Tree extends BinarySearchTree { // AVL樹(繼承二元搜尋樹
         }
     }
 
-    public void delRotate(Node pivot, int newData) { // 刪除節點後旋轉
+    public void delRotate(Node pivot, int newData) { // 刪除節點後檢查旋轉
         if (pivot != null) {
             addInfo("\nRotate!\n");
 
@@ -147,17 +147,17 @@ public class AVL_Tree extends BinarySearchTree { // AVL樹(繼承二元搜尋樹
         }
     }
 
-    public void addInfo(String str) { // 新增資訊
+    public void addInfo(String str) { // 新增執行資訊
         this.info += str;
     }
 
-    public void addInfo(String mode, int pivot, int move) { // 新增資訊
+    public void addInfo(String mode, int pivot, int move) { // 新增執行資訊
         info += ("\n" + mode + " Rotate:\n");
         info += ("  pivot(down) data: " + pivot + "\n");
         info += ("  move(up) data: " + move + "\n\n");
     }
 
-    public String getInfo() { // 取得資訊
+    public String getInfo() { // 取得執行資訊
         return info;
     }
 }
