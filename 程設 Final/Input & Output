@@ -68,24 +68,26 @@ All data: 1 2 3 4 6 7 8 9
 #3.INPUT
 ('a' for 'add' and 'd' for 'del', separate data with space)
 Please enter some commands:
+a 4
 a 2
+a 5
 a 1
 a 3
-a 4
-d 1
+d 4
 q
 
 #3.OUTPUT
 Final Result:
+add 4
 add 2
+add 5
 add 1
 add 3
-add 4
-del 1
+del 4
 Rotate!
 
-Left Rotate:
-  pivot(down) data: 2
-  move(up) data: 3
+Right Rotate:
+  pivot(down) data: 5
+  move(up) data: 2
 
-All data: 2 3 4
+All data: 1 2 3 5
