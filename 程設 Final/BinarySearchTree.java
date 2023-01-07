@@ -1,4 +1,4 @@
-public class BinarySearchTree extends BinaryTree { // 二元搜尋數(繼承二元樹)
+public class BinarySearchTree extends BinaryTree { // 二元搜尋樹(繼承二元樹)
     protected Node root = null; // 根節點
     boolean empty = true;
 
@@ -69,7 +69,7 @@ public class BinarySearchTree extends BinaryTree { // 二元搜尋數(繼承二�
         return null;
     }
 
-    public Node parentOf(Node node) {
+    public Node parentOf(Node node) { // 取得父節點
         return parentOf(node.data);
     }
 
