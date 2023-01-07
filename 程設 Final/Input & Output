@@ -6,7 +6,6 @@ a 2
 a 3
 a 4
 a 5
-a 6
 q
 
 #1.OUTPUT:
@@ -28,14 +27,7 @@ Left Rotate:
   pivot(down) data: 3
   move(up) data: 4
 
-add 6
-Rotate!
-
-Left Rotate:
-  pivot(down) data: 2
-  move(up) data: 4
-
-All data: 1 2 3 4 5 6
+All data: 1 2 3 4 5
 
 #2.INPUT
 ('a' for 'add' and 'd' for 'del', separate data with space)
