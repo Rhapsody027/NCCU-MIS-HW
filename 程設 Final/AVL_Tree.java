@@ -154,7 +154,7 @@ public class AVL_Tree extends BinarySearchTree { // AVL樹(繼承二元搜尋樹
     public void addInfo(String mode, int pivot, int move) { // 新增執行資訊
         info += ("\n" + mode + " Rotate:\n");
         info += ("  pivot(down) data: " + pivot + "\n");
-        info += ("  move(up) data: " + move + "\n\n");
+        info += ("  move(up) data: " + move + "\n");
     }
 
     public String getInfo() { // 取得執行資訊
