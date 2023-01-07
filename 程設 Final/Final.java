@@ -26,7 +26,7 @@ public class Final {
                         System.out.println("Invalid input. Please Enter again!!\n");
                     }
                 } catch (Exception e) {
-                    System.out.println("Invalid input. Please Enter again.\n");
+                    System.out.println("Invalid input. Please Enter again!!\n");
                 }
             }
         }
