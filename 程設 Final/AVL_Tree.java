@@ -102,14 +102,14 @@ public class AVL_Tree extends BinarySearchTree { // AVL樹(繼承二元搜尋樹
 
             if (pivot.bf > 1) {
                 if (pivot.Lnode.data <= newData) {
-                    addInfo("(LR Rotate)");
+                    addInfo("\n(LR Rotate)");
                     Left_Right(pivot);
                 } else {
                     Right(pivot);
                 }
             } else if (pivot.bf < -1) {
                 if (pivot.Rnode.data > newData) {
-                    addInfo("(RL Rotate)");
+                    addInfo("\n(RL Rotate)");
                     Right_Left(pivot);
                 } else {
                     Left(pivot);
