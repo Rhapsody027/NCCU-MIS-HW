@@ -6,8 +6,8 @@ public class Final {
 
         try (Scanner sc = new Scanner(System.in)) {
             // 輸入格式:
-            // a 1 or add 1，代表新增資料為1的節點
-            // d 1 or del 1，代表移除資料為1的節點
+            // a 1，代表新增資料為1的節點
+            // d 1，代表移除資料為1的節點
 
             System.out.println(
                     "('a' for 'add' and 'd' for 'del', separate data with space)\nPlease enter a command: ");
