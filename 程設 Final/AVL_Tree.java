@@ -137,10 +137,12 @@ public class AVL_Tree extends BinarySearchTree { // AVL樹(繼承二元搜尋樹
     }
 
     public void del(int data) { // 刪除節點
-        Node search = search(data), start = null;
+        Node search = search(data), start = root;
 
         if (search != null) {
-            start = parentOf(search(data));
+            if (search != root) {
+                start = parentOf(search);
+            }
             super.del(data);
             addInfo("del " + data + "\n");
             delRotate(getPivot(start), data);
