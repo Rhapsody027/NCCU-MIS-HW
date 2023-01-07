@@ -10,7 +10,7 @@ public class Final {
             // d 1，代表移除資料為1的節點
 
             System.out.println(
-                    "('a' for 'add' and 'd' for 'del', separate data with space)\nPlease enter a command: ");
+                    "('a' for 'add' and 'd' for 'del', separate data with space)\nPlease enter some commands: ");
             String input = "";
 
             while (!input.equalsIgnoreCase("q")) {
