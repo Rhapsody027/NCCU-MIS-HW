@@ -58,8 +58,7 @@ Rotate!
 Left Rotate:
   pivot(down) data: 7
   move(up) data: 8
-
-
+  
 Right Rotate:
   pivot(down) data: 9
   move(up) data: 8
