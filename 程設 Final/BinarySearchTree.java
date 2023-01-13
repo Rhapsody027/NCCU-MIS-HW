@@ -73,8 +73,8 @@ public class BinarySearchTree extends BinaryTree { // 二元搜尋樹(繼承二�
         return parentOf(node.data);
     }
 
-    public void del(int target) { // 刪除節點
-        Node del = search(target), parent = parentOf(target);
+    public void del(int data) { // 刪除節點
+        Node del = search(data), parent = parentOf(data);
 
         if (del.Rnode == null && del.Lnode == null) {
             if (parent.Lnode == del) {
