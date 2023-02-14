@@ -12,7 +12,8 @@ public class Passport extends IDCard {
 
     public void getInfo() {
         String info;
-        info = String.format("<PASSPORT INFO>\n" + "Name: %s\n" + "ID: %d\n" + "Country: %s\n", name, ID, country);
+        info = String.format("<PASSPORT INFO>\n" + "Name: %s\n" + "ID: %d\n" + "Country: %s\n", super.getName(),
+                super.getID(), country);
         System.out.println(info);
     }
 }

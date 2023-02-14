@@ -1,6 +1,6 @@
 public abstract class Card {
-    protected String name;
-    protected int ID;
+    private String name;
+    private int ID;
 
     public Card(String name) {
         this.name = name;
