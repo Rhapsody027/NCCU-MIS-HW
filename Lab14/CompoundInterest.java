@@ -25,6 +25,7 @@ class CompoundInterest extends DepositInsurance {
                 updateCurrentYear();
                 interestPayment();
             } else {
+                redemption(0.7);
                 System.out.println("Deduction is not successful.");
             }
         }
