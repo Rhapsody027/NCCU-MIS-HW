@@ -1,4 +1,4 @@
-class DepositInsurance {
+abstract class DepositInsurance {
     private BankAccount account;
     private double totalValue, annuity;
     private int expiration, currentYear;
@@ -52,9 +52,7 @@ class DepositInsurance {
         account.deposit(totalValue);
     }
 
-    public void yearEnd() {
-
-    }
+    abstract public void yearEnd();
 
     public String getInfo() {
         return String.format("Design Bank Account: %d\n" +
