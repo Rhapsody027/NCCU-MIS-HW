@@ -37,8 +37,7 @@ class Employee {
     }
 
     public int payment() {
-        double wageOverWork = wage / 8;
-        double total = wage * workDay + wageOverWork * overWork * 1.5;
+        double total = wage * workDay + wage / 8 * overWork * 1.5;
 
         return (int) total;
     }
