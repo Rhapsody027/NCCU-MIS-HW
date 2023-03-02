@@ -16,7 +16,7 @@ public class BankCard extends Card {
 
     public void getInfo() {
         String info;
-        info = String.format("<BANK CARD INFO>\n" + "Name: %s\n" + "Expire year: %d\n", super.getID(), expYear);
+        info = String.format("<BANK CARD INFO>\n" + "Name: %s\n" + "Expire year: %d\n", super.getName(), expYear);
         System.out.println(info);
     }
 }
