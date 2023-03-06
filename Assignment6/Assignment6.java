@@ -22,7 +22,7 @@ public class Assignment6 {
                 company.addE(e);
             }
 
-            System.out.println("Input company employees information");
+            System.out.println("Input employees working data");
 
             int round2 = sc.nextInt();
             for (int i = 0; i < round2; i++) {
